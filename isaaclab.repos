@@ -1,0 +1,6 @@
+repositories:
+  isaaclab:
+    type: git
+    url: git@github.com:fkfk21/IsaacLab.git
+    version: main
+
