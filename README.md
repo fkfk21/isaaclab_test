@@ -16,11 +16,8 @@ poetry config virtualenvs.in-project true
 poetry install --no-root
 source (poetry env info --path)/bin/activate.fish # activate virtual environment
 vcs import . < isaaclab.repos
-isaaclab/isaaaclab.sh --install
+isaaclab/isaaaclab.sh --install  # install packages iteratively through pip
 ```
-
-
-
 
 ## memo
 ### install version
