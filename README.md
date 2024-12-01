@@ -28,6 +28,16 @@ isaaclab/isaaclab.sh install packages directly
 
 
 
+## ToDo
+
+- lab_assetsのmevius.py
+  - mevius.usdの作成
+    - 例: anymalにならうと  usd_path=f"{ISAACLAB_NUCLEUS_DIR}/Robots/Mevius/mevius.usd",
+  - ANYDRIVE_3_SIMPLE_ACTUATOR_CFGに相当するactuatorモデルの設定
+  - InitialStateCfgの修正。meviusに合わせる
+  - meviusのセンサー設定 (realsense t265)
+
+
 
 
 
