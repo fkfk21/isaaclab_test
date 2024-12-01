@@ -27,6 +27,16 @@ isaac sim <- followed isaaclab installation
 isaaclab/isaaclab.sh install packages directly
 
 
+## reinforcement learning
+
+```bash
+./isaaclab.sh -p source/standalone/workflows/rsl_rl/train.py --task Isaac-Velocity-Flat-Mevius-v0 --num_envs 1024 --max-iterations 20000
+```
+ログの保存先
+`~/core_ws/isaaclab_test/isaaclab/logs/rsl_rl/mevius_flat`
+
+
+
 
 ## ToDo
 
